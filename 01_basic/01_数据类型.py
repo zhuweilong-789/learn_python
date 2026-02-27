@@ -8,6 +8,18 @@ weight = 70.5
 
 # 字符串
 name = "张三"
+'''
+1. 字符串通过+拼接
+2. 字符串通过%格式化输出
+    %s 字符串
+    %d 整数
+    %f 浮点数
+3. 通过fString方式格式化输出
+    格式：f'字符串{变量}'
+'''
+print('姓名' + name)
+print('默认浮点数精度为6位%f' % weight)
+print(f'姓名{name}，年龄{age}岁')
 
 # 布尔类型
 '''
@@ -19,5 +31,5 @@ name = "张三"
 is_student = True
 is_girl = False
 
-# 空值
+# 空值, 类似js的null
 none_value = None
