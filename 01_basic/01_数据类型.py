@@ -33,3 +33,10 @@ is_girl = False
 
 # 空值, 类似js的null
 none_value = None
+
+# python上的字符串数据是存储在堆上， js返回的结果也是一样的
+age1 = 100
+age2 = age1
+age1 = 200
+print(age1) # 200
+print(age2) # 100
