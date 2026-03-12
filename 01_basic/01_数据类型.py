@@ -27,6 +27,8 @@ print(f'姓名{name}，年龄{age}岁')
 运算符，
     比较运算符：==, !=, >, <, >=, <=
     逻辑运算符：and, or, not
+    逻辑运算符和js的区别：
+        js中， && 对应 python中的 and， || 对应 python中的 or， ! 对应 python中的 not
 '''
 is_student = True
 is_girl = False
@@ -34,7 +36,14 @@ is_girl = False
 # 空值, 类似js的null
 none_value = None
 
-# python上的字符串数据是存储在堆上， js返回的结果也是一样的
+
+'''
+python中可变数据和不可变数据类型
+    不可变数据类型：数字（整数，浮点数）、字符串、布尔值、空值、元组
+    可变数据类型：列表、字典、集合
+'''
+
+# 以下代码就是典型的不可变数据类型的赋值操作，了解不可变数据类型在内存中的存储方式就看的懂为什么这样
 age1 = 100
 age2 = age1
 age1 = 200
