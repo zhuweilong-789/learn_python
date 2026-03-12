@@ -26,3 +26,12 @@ match space:
         print('19 spaces.')
     case _:
         print('其他空格')   
+
+# match可以匹配列表
+space = [1, 2, 3, 4, 5]
+
+match space:
+    case [1, 2, 3, 4, 5]:
+        print('12345 spaces.')
+    case _:
+        print('匹配列表')   
