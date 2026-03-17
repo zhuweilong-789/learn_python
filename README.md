@@ -13,6 +13,7 @@
 ## 学习内容
 
 ### 基础部分
+
 - **数据类型**：整数、浮点数、字符串、布尔值、空值等基础数据类型的使用
 
 ## 如何使用
@@ -33,6 +34,6 @@
 - [Python官方文档](https://docs.python.org/zh-cn/3/)
 - [Python教程 - 菜鸟教程](https://www.runoob.com/python/python-tutorial.html)
 
----
+***
 
 希望这个项目能帮助你更好地学习Python！
