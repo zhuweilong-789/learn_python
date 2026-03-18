@@ -1,4 +1,8 @@
 '''
+python 模块分为三类：标准库模块，第三方模块，自定义模块
+'''
+
+'''
 引入模块的方式
 
 1. 直接引入模块
@@ -15,6 +19,8 @@ wechant_pay(100)
 ali_pay(100)
 info()
 
+
+
 通过别名引入
 import pay as p
 import order as o
@@ -23,3 +29,6 @@ p.wechant_pay(100)
 o.create_order(1000)
 
 '''
+
+from pay import *
+from order import *
